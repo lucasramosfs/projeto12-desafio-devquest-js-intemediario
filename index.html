@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio DevQuest HTML + CSS +JS intermediário </title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+
+        <section class="texto">
+
+            <h1>
+                FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!
+            </h1>
+
+            <p>
+                Caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.
+            </p>
+        </section>
+
+        <section class="formulario">
+
+            <ul class="itens-formulario">
+                <li class="item">
+                    <input type="text" name="nome" placeholder="Nome completo *" id="nome">
+
+                    <p class="esconder">Campo obrigatório</p>
+
+                </li>
+                <li class="item">
+                    <input type="text" name="email" id="email" placeholder="Email *">
+
+                    <p class="esconder">Campo obrigatório</p>
+
+                </li>
+                <li class="item">
+                    <input type="text" name="telefone" id="telefone" placeholder="Telefone *">
+
+                    <p class="esconder">Campo obrigatório</p>
+
+                </li>
+                <li class="item mensagem ">
+                    <input type="text" id="mensagem" name="mensagem" placeholder="Mensagem *">
+                    <!-- <textarea name="mensagem" id="mensagem" cols="26" rows="4" placeholder="Mensagem *"></textarea> -->
+
+                    <p class="esconder">Campo obrigatório</p>
+                </li>
+            </ul>                
+
+            <h3 class="campo-obrigatorio">*Campos obrigatórios</h3>
+
+            <button id="btn-enviar-formulario">Enviar</button>
+
+        </section>
+
+
+    </main>
+    
+
+
+
+
+    <script type="text/javascript" src="src/js/index.js"></script>
+</body>
+</html>

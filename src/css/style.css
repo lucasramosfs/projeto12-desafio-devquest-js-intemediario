@@ -1,0 +1,132 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 402px;
+    width: 800px;
+    background: url(../images/bg-repeat.jpg) center;
+    background-size: contain;
+    border-radius: 30px;
+    box-shadow: 15px 25px 20px rgba(0, 0, 0, 0.4);
+}
+
+.texto{
+    color: #fff;
+    width: 350px;
+    padding-left: 50px;
+}
+
+.texto h1{
+    font-size: 2rem;
+    font-weight: 900;
+    padding-bottom: 11px;
+}
+
+.texto p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.formulario{
+    background-color: #fff;
+    margin-right: 50px;
+    height: 378px;
+    width: 340px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario .itens-formulario{
+    width: 100%;
+    padding: 20px;
+}
+
+.formulario .itens-formulario .item{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario .itens-formulario .item input{
+    width: 100%;
+    height: 35px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-left: 11px;
+}
+
+.formulario .itens-formulario .item p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #F52E2E;
+}
+
+.formulario .itens-formulario .item.mensagem #mensagem{
+    height: 100px;
+    padding-bottom: 82px;
+    width: 100%;
+    padding-left: 11px;
+    padding-top: 16px;
+    
+}
+
+.esconder{
+    display: none;
+}
+
+
+.formulario .itens-formulario .item .faltou ~p{
+    display: block;
+}
+
+.formulario .itens-formulario .item .faltou{
+    border: 1px solid #F52E2E;
+}
+
+
+.formulario .itens-formulario .item .preenchido ~p{
+    display: none;
+}    
+
+.formulario .itens-formulario .item .preenchido{
+    border: 1px solid #00C22B;
+}    
+
+
+
+
+
+
+.formulario .campo-obrigatorio{
+    padding-top: 45px;
+    padding-left: 15px;
+    align-self: flex-start;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+#btn-enviar-formulario{
+    background-color: #3CCC87;
+    height: 41px;
+    width: 300px;
+    margin-top: 11px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #fff;
+}
