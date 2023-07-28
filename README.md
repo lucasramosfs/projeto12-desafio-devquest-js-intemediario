@@ -1,4 +1,4 @@
-# Exercício 09 | Quest do DevQuest HTML + CSS avançado
+# Exercício 11 | Quest do DevQuest HTML + CSS avançado e JS Intermediáio
 
 ## Aplicando JavaScript Intermediário
 
@@ -9,7 +9,7 @@ olá, primeriamente muito obrigado por esta equipe corrigir meu trabalho, gostar
 Não sabia se era para focar em responsividade ou se o projeto era para ocupar a tela toda, mas foquei no JS.
 
 
-<a href="https://lucasramosfs.github.io/projeto11-desafio-devquest-js-intermediario/ "> Clique aqui para acessar a página</a>
+<a href="https://lucasramosfs.github.io/projeto11-desafio-devquest-js-intemediario/"> Clique aqui para acessar a página</a>
 
 ### Resultado final
 
