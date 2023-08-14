@@ -1,4 +1,4 @@
-# Exercício 11 | Quest do DevQuest HTML + CSS avançado e JS Intermediáio
+# Exercício 12 | Quest do DevQuest HTML + CSS avançado e JS Intermediáio
 
 ## Aplicando JavaScript Intermediário
 
