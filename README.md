@@ -9,7 +9,7 @@ olá, primeriamente muito obrigado por esta equipe corrigir meu trabalho, gostar
 Não sabia se era para focar em responsividade ou se o projeto era para ocupar a tela toda, mas foquei no JS.
 
 
-<a href="https://lucasramosfs.github.io/projeto11-desafio-devquest-js-intemediario/"> Clique aqui para acessar a página</a>
+<a href="https://lucasramosfs.github.io/projeto12-desafio-devquest-js-intemediario/"> Clique aqui para acessar a página</a>
 
 ### Resultado final
 
